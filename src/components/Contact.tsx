@@ -125,7 +125,7 @@ function Contact() {
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
           <div className="contact-info">
-            <p>📧 baljot6@email.com</p>
+            <p>📧 baljot6@gmail.com</p>
             <p>📞 (510) 833-1469</p>
           </div>
         </div>
