@@ -36,3 +36,11 @@
         color: rgb(39, 40, 34);
     }
 }
+
+.vertical-timeline.vertical-timeline--two-columns {
+    max-width: 90%;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content {
+    width: 44%;
+}

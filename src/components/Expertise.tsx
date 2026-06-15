@@ -43,48 +43,26 @@ const labelsThird = [
 
 function Expertise() {
     return (
-    <div className="container" id="expertise">
-        <div className="skills-container">
-            <h1>Expertise</h1>
-            <div className="skills-grid">
-                <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
-
-                <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
-                </div>
-
-                <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
+        <div className="container" id="expertise">
+            <div className="skills-container">
+                <h1>About Me</h1>
+                <div className="about-me">
+                    <p>
+                        Hi I'm Baljot, a recent Master's graduate in Artificial Intelligence from San Jose State University, 
+                        with a background in Computer Science from UC Merced. I'm a builder at heart: whether it's a machine 
+                        learning pipeline, a full-stack web app, or a GenAI-powered solution, I care deeply about shipping 
+                        things that actually work. That means thorough testing, validation, and making sure whatever I hand 
+                        off is something I'd stand behind.
+                    </p>
+                    <p>
+                        My experience spans machine learning, data science, and data analytics. From designing complex 
+                        solutions and pipelines, to building RAG systems and recommendation engines as personal projects. 
+                        I'm comfortable across different stacks such as LangChain, PyTorch, Flask, Docker, and more. 
+                        I'm always looking to grow my toolkit and take on problems that push me to think differently.
+                    </p>                    
                 </div>
             </div>
         </div>
-    </div>
     );
 }
 
