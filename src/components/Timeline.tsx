@@ -14,6 +14,21 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="July 2026 - Now"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Instructor (Part-Time)</h3>
+            <h4 className="vertical-timeline-element-subtitle">The Coder School</h4>
+            <h4 className="vertical-timeline-element-subtitle">Fremont, CA</h4>
+            {/* <ul style={{ listStyleType: "'+ '" }}>
+              <li>Built a compound screening pipeline for COVID-19 using Random Forest models to predict binding classification with 90% accuracy.</li>
+              <li>Developed a 3-step data pipeline to clean, analyze, and extract key features from 208 compound descriptors.</li>
+              <li>Presented findings and metrics to cross-functional teams, tailoring communication for both technical and non-technical audiences.</li>
+            </ul> */}
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="July 2025 - Nov 2025"
