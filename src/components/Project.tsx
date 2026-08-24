@@ -17,6 +17,10 @@ function Project() {
             <h1>Personal Projects</h1>
             <div className="projects-list">
                 <div className="project">
+                    <h2><a href="https://github.com/Bsingh24/VehicleTelemetryTracker" target="_blank" rel="noreferrer">Vehicle Telemetry Tracker</a></h2>
+                    <p> Built a full-stack telemetry app using FastAPI to stream live engine data to the browser in real time, utilizing a custom OBD-II library to extract data from the car.</p>
+                </div>
+                <div className="project">
                     <h2><a href="https://github.com/Bsingh24/Counsel.NLP" target="_blank" rel="noreferrer">Academic Advisor - Counsel.NLP</a></h2>
                     <p>Built an end-to-end RAG system using LangGraph and LLaMA 3.2 to help students with general advising and course planning, achieving a BERTScore of 0.9.</p>
                 </div>
