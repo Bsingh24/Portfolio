@@ -16,6 +16,10 @@ function Project() {
         <div className="projects-container" id="projects">
             <h1>Personal Projects</h1>
             <div className="projects-list">
+                 <div className="project">
+                    <h2><a href="https://github.com/Bsingh24/ApexRL" target="_blank" rel="noreferrer">ApexRL</a></h2>
+                    <p> Trained a Proximal Policy Optimization (PPO) agent to navigate a track segment as quickly as possible in BeamNG.tech.</p>
+                </div>
                 <div className="project">
                     <h2><a href="https://github.com/Bsingh24/VehicleTelemetryTracker" target="_blank" rel="noreferrer">Vehicle Telemetry Tracker</a></h2>
                     <p> Built a full-stack telemetry app using FastAPI to stream live engine data to the browser in real time, utilizing a custom OBD-II library to extract data from the car.</p>
