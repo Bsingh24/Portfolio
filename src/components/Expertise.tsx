@@ -48,7 +48,7 @@ function Expertise() {
                 <h1>About Me</h1>
                 <div className="about-me">
                     <p>
-                        Hi I'm Baljot, a recent Master's graduate in Artificial Intelligence from San Jose State University, 
+                        Hi I'm Baljot, a Master's graduate in Artificial Intelligence from San Jose State University, 
                         with a background in Computer Science from UC Merced. I'm a builder at heart: whether it's a machine 
                         learning pipeline, a full-stack web app, or a GenAI-powered solution, I care deeply about shipping 
                         things that actually work. That means thorough testing, validation, and making sure whatever I hand 
@@ -59,7 +59,12 @@ function Expertise() {
                         solutions and pipelines, to building RAG systems and recommendation engines as personal projects. 
                         I'm comfortable across different stacks such as LangChain, PyTorch, Flask, Docker, and more. 
                         I'm always looking to grow my toolkit and take on problems that push me to think differently.
-                    </p>                    
+                    </p>
+                    <p>
+                        I currently teach at TheCoderSchool, where I design and teach courses in data science and AI. I also prepare students
+                        for ACSL competitions (Elementary and Junior division), teaching core concepts through hands-on lessons. I also have been
+                        working on projects and learning new skills aligned with my interest in autonomous sytems and robotics.
+                    </p>
                 </div>
             </div>
         </div>
